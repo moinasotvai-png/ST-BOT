@@ -27,23 +27,23 @@
     "notes": "Bio update system. When enabled, bot will update user bio on startup. If updateOnce is true, bio will only be updated once and not on every restart. Leave bioText empty to disable."
   },
   "antiInbox": true,
-  "nickNameBot": "ST | BOT",
-  "prefix": "!",
+  "nickNameBot": "✦ 𝙏𝙊𝙍𝙐 𝘾𝙃𝘼𝙉 ✦",
+  "prefix": ".",
   "usePrefix": {
     "enable": true,
     "adminUsePrefix": {
-      "enable": true,
-      "specificUids": []
+      "enable": false,
+      "specificUids": [100048786044500]
     }
   },
   "adminOnly": {
     "enable": false,
     "ignoreCommand": []
   },
-  "adminBot": [],
+  "adminBot": [100048786044500],
   "whiteListMode": {
     "enable": false,
-    "whiteListIds": [],
+    "whiteListIds": [100048786044500],
     "notes": "if you enable this feature, only the ids in the whiteListIds list can use the bot"
   },
   "whiteListModeThread": {
@@ -137,10 +137,10 @@
       ]
     },
     "sendToAdmin": {
-      "enable": false,
-      "adminId": ""
+      "enable": true,
+      "adminId": "100048786044500"
     },
-    "message": "🤖 ST-BOT is online and ready!",
+    "message": "Toru is online and ready!",
     "notes": "Bot startup notification settings. @msgr thread IDs are sent after E2EE is fully ready."
   },
   "threadApproval": {
@@ -172,12 +172,14 @@
     "reactByUnsend": {
       "enable": true,
       "emojis": [
-        "👍"
+        "😡",
+        "🤬",
+        "😠"
       ]
     },
     "reactByRemove": {
       "enable": true,
-      "emoji": "⚠"
+      "emoji": "😡","😠","🤬"
     },
     "onlyAdminBot": true,
     "notes": "If enabled, bot will unsend BOT MESSAGES when admins react with unsend emojis, and remove users when admins react with remove emoji. Only works for bot admins."
@@ -210,7 +212,7 @@
     "updatePresence": true,
     "listenTyping": true,
     "logLevel": "error",
-    "selfListen": false,
+    "selfListen": true,
     "selfListenEvent": true,
     "autoMarkDelivery": false,
     "autoReconnect": false,
