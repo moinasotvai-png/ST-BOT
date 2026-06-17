@@ -33,17 +33,17 @@
     "enable": true,
     "adminUsePrefix": {
       "enable": false,
-      "specificUids": [100048786044500]
+      "specificUids": ["100048786044500"]
     }
   },
   "adminOnly": {
     "enable": false,
     "ignoreCommand": []
   },
-  "adminBot": [100048786044500],
+  "adminBot": ["100048786044500"],
   "whiteListMode": {
     "enable": false,
-    "whiteListIds": [100048786044500],
+    "whiteListIds": ["100048786044500"],
     "notes": "if you enable this feature, only the ids in the whiteListIds list can use the bot"
   },
   "whiteListModeThread": {
