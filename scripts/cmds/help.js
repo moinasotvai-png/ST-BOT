@@ -226,7 +226,7 @@ module.exports = {
 					helpMessage += '│ 💡 Type !help <cmdname>\n';
 					helpMessage += '│    for direct command info\n';
 					helpMessage += '╰─────────────────────◊\n';
-					helpMessage += '        💫 ST_BOT Help Menu';
+					helpMessage += '  💫 TORU CHANHelp Menu';
 
 					// Delete old onReply data and unsend previous message
 					global.GoatBot.onReply.delete(Reply.messageID);
